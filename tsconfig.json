@@ -12,7 +12,7 @@
     "lib": ["ES2017"],
     "emitDecoratorMetadata": true,
     "sourceMap": false,
-    "rootDir": ".",
+    "rootDir": "src",
     "outDir": "dist",
     "paths": {
       // this is the package name we use (in the interface imports, --package for generators)

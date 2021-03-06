@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@polkadot/api": "^3.4.1"
+    "@polkadot/api": "^3.11.1"
   },
   "jest": {
     "moduleFileExtensions": [
@@ -31,7 +31,7 @@
     "testEnvironment": "node"
   },
   "devDependencies": {
-    "@polkadot/typegen": "^3.4.1",
+    "@polkadot/typegen": "^3.11.1",
     "@types/jest": "^26.0.20",
     "jest": "^26.6.3",
     "ts-jest": "^26.4.4",

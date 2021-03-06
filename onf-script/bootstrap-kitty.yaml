@@ -1,0 +1,36 @@
+networkSpec:
+  config:
+    name: kitty
+    displayName: Kitty-5
+    protocol: substrate
+    imageRepository: onfinality/kitty
+    metadata:
+      imageVersion: latest
+  chainSpec: "./chainspec.json"
+validator:
+  count: 1
+  node:
+    nodeName: validator
+    nodeType: validator
+    clusterKey: jm
+    nodeSpecKey: small
+    initFromBackup: false
+    publicPort: true
+    useApiKey: true
+    storage: 10Gi
+    metadata:
+      extraArgs:
+        - --alice
+  sessionsKey: []
+
+bootNode:
+  count: 1
+  node:
+    nodeName: bootnode
+    nodeType: full
+    clusterKey: jm
+    nodeSpecKey: small
+    initFromBackup: false
+    publicPort: true
+    useApiKey: true
+    storage: 10Gi
