@@ -21,16 +21,6 @@ validator:
     metadata:
       extraArgs:
         - --alice
-  sessionsKey: []
+  sessionsKey:
+    - []
 
-bootNode:
-  count: 1
-  node:
-    nodeName: bootnode
-    nodeType: full
-    clusterKey: jm
-    nodeSpecKey: small
-    initFromBackup: false
-    publicPort: true
-    useApiKey: true
-    storage: 10Gi
