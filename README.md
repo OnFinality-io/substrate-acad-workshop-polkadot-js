@@ -1,6 +1,6 @@
 # Polkadot Js & Subquery Workshop
 
-PPT [check here](SubstrateAcadWorkshop.ppt)
+Slides: [.pptx](SubstrateAcadWorkshop.pptx) [.pdf](SubstrateAcadWorkshop.pdf)
 
 This project shows how to config `@polkadot/api` to a [user custom chain](https://github.com/SubstrateDevAcademy/assignment-5-template).
 
