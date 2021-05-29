@@ -5,7 +5,7 @@ type KittyBirthInfo @entity {
 
   birthBlockHeight: BigInt!
 
-  owner: String!
+  owner: String! @index
 
   firstOwner: String!
 

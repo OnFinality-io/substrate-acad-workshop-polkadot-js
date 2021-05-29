@@ -5,7 +5,7 @@ repository: "https://github.com/subquery/subql-examples"
 schema: "./schema.graphql"
 
 network:
-  endpoint: "wss://node-6774223432908914688.jm.onfinality.io/ws?apikey=3a0eaba5-5331-45e1-8218-1c962d5fd802"
+  endpoint: "wss://node-6804366960786919424.jm.onfinality.io/ws?apikey=a18a5c6c-f992-4ddb-8d45-abe971c7b0a8"
   types: {
     "Address": "AccountId",
     "LookupSource": "AccountId",
